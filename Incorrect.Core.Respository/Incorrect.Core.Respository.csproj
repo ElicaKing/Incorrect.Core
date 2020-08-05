@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>D:\Liuls\NetConf\Incorrect.Core\Incorrect.Core\bin\Debug\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Z.EntityFramework.Plus.EFCore" Version="3.0.56" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Incorrect.Core.Common\Incorrect.Core.Common.csproj" />
+    <ProjectReference Include="..\Incorrect.Core.IRespository\Incorrect.Core.IRespository.csproj" />
+    <ProjectReference Include="..\Incorrect.Core.Model\Incorrect.Core.Model.csproj" />
+  </ItemGroup>
+
+</Project>

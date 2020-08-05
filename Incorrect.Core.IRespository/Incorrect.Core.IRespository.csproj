@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.CoreUtility" Version="16.6.255" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Incorrect.Core.Common\Incorrect.Core.Common.csproj" />
+    <ProjectReference Include="..\Incorrect.Core.Model\Incorrect.Core.Model.csproj" />
+  </ItemGroup>
+
+</Project>

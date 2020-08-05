@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Incorrect.Core</name>
+    </assembly>
+    <members>
+        <member name="T:Incorrect.Core.Controllers.ExamInfoController">
+            <summary>
+            关于学生相关信息的数据
+            </summary>
+        </member>
+        <member name="M:Incorrect.Core.Controllers.ExamInfoController.ExamInfoSelect(System.Int32)">
+            <summary>
+            获取考生考试信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Incorrect.Core.Controllers.ExamInfoController.GetTopGradeSerialIDByReader(System.Int32,System.Int32)">
+            <summary>
+            获取年级信息
+            </summary>
+            <param name="Oragan">年级ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:Incorrect.Core.Controllers.WeatherForecastController.Get">
+            <summary>
+            获取数据集合
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

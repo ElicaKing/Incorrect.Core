@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>D:\Liuls\NetConf\Incorrect.Core\Incorrect.Core\bin\Debug\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Incorrect.Core.IRespository\Incorrect.Core.IRespository.csproj" />
+    <ProjectReference Include="..\Incorrect.Core.IService\Incorrect.Core.IService.csproj" />
+  </ItemGroup>
+
+</Project>
