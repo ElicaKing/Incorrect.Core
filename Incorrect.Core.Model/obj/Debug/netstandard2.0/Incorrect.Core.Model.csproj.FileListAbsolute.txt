@@ -1,0 +1,9 @@
+D:\Liuls\NetConf\Incorrect.Core\Incorrect.Core.Model\bin\Debug\netstandard2.0\Incorrect.Core.Model.deps.json
+D:\Liuls\NetConf\Incorrect.Core\Incorrect.Core.Model\bin\Debug\netstandard2.0\Incorrect.Core.Model.dll
+D:\Liuls\NetConf\Incorrect.Core\Incorrect.Core.Model\bin\Debug\netstandard2.0\Incorrect.Core.Model.pdb
+D:\Liuls\NetConf\Incorrect.Core\Incorrect.Core.Model\obj\Debug\netstandard2.0\Incorrect.Core.Model.csprojAssemblyReference.cache
+D:\Liuls\NetConf\Incorrect.Core\Incorrect.Core.Model\obj\Debug\netstandard2.0\Incorrect.Core.Model.AssemblyInfoInputs.cache
+D:\Liuls\NetConf\Incorrect.Core\Incorrect.Core.Model\obj\Debug\netstandard2.0\Incorrect.Core.Model.AssemblyInfo.cs
+D:\Liuls\NetConf\Incorrect.Core\Incorrect.Core.Model\obj\Debug\netstandard2.0\Incorrect.Core.Model.csproj.CoreCompileInputs.cache
+D:\Liuls\NetConf\Incorrect.Core\Incorrect.Core.Model\obj\Debug\netstandard2.0\Incorrect.Core.Model.dll
+D:\Liuls\NetConf\Incorrect.Core\Incorrect.Core.Model\obj\Debug\netstandard2.0\Incorrect.Core.Model.pdb
