@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Incorrect.Core.Model
+namespace Incorrect.Core
 {
     public class Response
     {

@@ -18,7 +18,7 @@ namespace Incorrect.Core.Service
 
         public async Task<object> GetTopGradeSerialIDByReader(int OrganId, Nullable<int> GradeSerialID)
         {
-            if (GradeSerialID>0)  return await schoolGrade.Select(c => c.OrganID.Equals(OrganId) && c.GradeSerialID.Equals(GradeSerialID));
+            if (GradeSerialID>0)  return await currentRepository.Select(c => c.OrganID.Equals(OrganId) && c.GradeSerialID.Equals(GradeSerialID));
             else
                 return await schoolGrade.Select(c => c.OrganID.Equals(OrganId));
             // var topGrade =  GradeSerialID==null?  schoolGrade.Select(c=>c.OrganID.Equals(OrganId)) :  schoolGrade.Select(c => c.OrganID.Equals(OrganId) && c.GradeSerialID.Equals(GradeSerialID));

@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-namespace Incorrect.Core.Model
+namespace Incorrect.Core
 {
     public  class QuestionKnowledge_Info
     {

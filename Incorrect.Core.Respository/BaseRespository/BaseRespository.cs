@@ -254,6 +254,53 @@ namespace Incorrect.Core.Respository
             sql = string.Format(sql, sbCondition.ToString().TrimEnd(','));
             return spList.ToArray();
         }
+        #region select 系列
+        /// <summary>
+        /// 根据主键查询
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        public async Task<T> FindById(dynamic id)
+        {
+            return await myDbContext.Set<T>().Find(id);
+        }
 
+        /// <summary>
+        /// 获取默认一条数据，没有则为NULL
+        /// </summary>
+        /// <param name="whereLambda"></param>
+        /// <returns></returns>
+        public async Task<T> FirstOrDefault(Expression<Func<T, bool>> whereLambda = null)
+        {
+            if (whereLambda == null)
+            {
+                return myDbContext.Set<T>().FirstOrDefault();
+            }
+            return myDbContext.Set<T>().FirstOrDefault(whereLambda);
+        }
+        /// <summary>
+        /// 获取全部数据
+        /// </summary>
+        /// <returns></returns>
+        public async  Task<List<T>> GetAll(string ordering = null)
+        {
+            return ordering == null
+                ? myDbContext.Set<T>().ToList()
+                : myDbContext.Set<T>().ToList();
+        }
+        /// <summary>
+        /// 带条件查询获取数据
+        /// </summary>
+        /// <param name="whereLambda"></param>
+        /// <param name="ordering"></param>
+        /// <returns></returns>
+        public async  Task<List<T>> GetAll(Expression<Func<T, bool>> whereLambda, string ordering = null)
+        {
+            var iQueryable = myDbContext.Set<T>().Where(whereLambda);
+            return ordering == null
+                ? iQueryable.ToList()
+                : iQueryable.ToList();
+        }
+        #endregion
     }
 }

@@ -1,5 +1,5 @@
 using System;
-namespace Incorrect.Core.Model
+namespace Incorrect.Core
 {
     public class v_BaseCourse_Info
     {
