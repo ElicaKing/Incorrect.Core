@@ -1,13 +1,14 @@
 using Autofac;
+using AutoMapper;
 using Incorrect.Core.Common;
 using Incorrect.Core.Common.Helper;
+using Incorrect.Core.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Swashbuckle.AspNetCore.Swagger;
 using System;
 using System.IO;
 using System.Reflection;
@@ -60,7 +61,7 @@ namespace Incorrect.Core
             services.AddMvc();
 
             #endregion
-
+            services.AddAutoMapper(typeof(AutoMapperConfig).Assembly);
         }
         public void ConfigureContainer(ContainerBuilder builder)
         {

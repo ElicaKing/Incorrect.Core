@@ -243,9 +243,9 @@ namespace Incorrect.Core.Service
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
-        public async Task<T> FindById(dynamic id)
+        public async Task<List<T>> Find(Expression<Func<T, bool>> whereLambda)
         {
-            return await currentRepository.FindById(id);
+            return await currentRepository.Find(whereLambda);
         }
 
         /// <summary>

@@ -7,6 +7,10 @@ namespace Incorrect.Core.IService
 {
     public interface ISysUserInfoService:IBaseService<SysUser_Info>
     {
-        Task<bool> getUserInfo(string LoginCode, string Password, int SchoolYearID, int Semester);
+        Task<SysUser_Info> getUserInfo(string LoginCode, string Password);
+        Task<SysUser_Info> UpdateUser(SysUser_Info user_Info);
+        Task<SysUser_Info> InsertUser(SysUser_Info user_Info);
+        IEnumerable<SysUser_Info> getUsers();
+        Task<List<SysUser_Info>> GetUserById(int id);
     }
 }

@@ -22,6 +22,27 @@
             <param name="Oragan">年级ID</param>
             <returns></returns>
         </member>
+        <member name="M:Incorrect.Core.Controllers.LoginController.getLoginUserInfo(System.String,System.String)">
+            <summary>
+            获取登陆人信息
+            </summary>
+            <param name="LoginCode">登录账号</param>
+            <param name="Password">密码</param>
+            <returns></returns>
+        </member>
+        <member name="M:Incorrect.Core.Controllers.LoginController.GetResult">
+            <summary>
+            获取所有用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Incorrect.Core.Controllers.LoginController.getUserById(System.Int32)">
+            <summary>
+            根据Id获取用户数据
+            </summary>
+            <param name="id">用户id</param>
+            <returns></returns>
+        </member>
         <member name="M:Incorrect.Core.Controllers.WeatherForecastController.Get">
             <summary>
             获取数据集合

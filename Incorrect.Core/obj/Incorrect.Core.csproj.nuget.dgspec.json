@@ -90,6 +90,68 @@
         }
       }
     },
+    "D:\\Liuls\\NetConf\\Incorrect.Core\\Incorrect.Core.Extensions\\Incorrect.Core.Extensions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Liuls\\NetConf\\Incorrect.Core\\Incorrect.Core.Extensions\\Incorrect.Core.Extensions.csproj",
+        "projectName": "Incorrect.Core.Extensions",
+        "projectPath": "D:\\Liuls\\NetConf\\Incorrect.Core\\Incorrect.Core.Extensions\\Incorrect.Core.Extensions.csproj",
+        "packagesPath": "C:\\Users\\ctt\\.nuget\\packages\\",
+        "outputPath": "D:\\Liuls\\NetConf\\Incorrect.Core\\Incorrect.Core.Extensions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ctt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Liuls\\NetConf\\Incorrect.Core\\Incorrect.Core.Model\\Incorrect.Core.Model.csproj": {
+                "projectPath": "D:\\Liuls\\NetConf\\Incorrect.Core\\Incorrect.Core.Model\\Incorrect.Core.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\Liuls\\NetConf\\Incorrect.Core\\Incorrect.Core.IService\\Incorrect.Core.IService.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -241,6 +303,9 @@
               "D:\\Liuls\\NetConf\\Incorrect.Core\\Incorrect.Core.Common\\Incorrect.Core.Common.csproj": {
                 "projectPath": "D:\\Liuls\\NetConf\\Incorrect.Core\\Incorrect.Core.Common\\Incorrect.Core.Common.csproj"
               },
+              "D:\\Liuls\\NetConf\\Incorrect.Core\\Incorrect.Core.Extensions\\Incorrect.Core.Extensions.csproj": {
+                "projectPath": "D:\\Liuls\\NetConf\\Incorrect.Core\\Incorrect.Core.Extensions\\Incorrect.Core.Extensions.csproj"
+              },
               "D:\\Liuls\\NetConf\\Incorrect.Core\\Incorrect.Core.IService\\Incorrect.Core.IService.csproj": {
                 "projectPath": "D:\\Liuls\\NetConf\\Incorrect.Core\\Incorrect.Core.IService\\Incorrect.Core.IService.csproj"
               },
@@ -259,6 +324,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
             "Autofac": {
               "target": "Package",
               "version": "[5.2.0, )"

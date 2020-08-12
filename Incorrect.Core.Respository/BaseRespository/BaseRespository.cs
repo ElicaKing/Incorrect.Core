@@ -258,13 +258,13 @@ namespace Incorrect.Core.Respository
         /// <summary>
         /// 根据主键查询
         /// </summary>
-        /// <param name="id"></param>
+        /// <param name="whereLambda"></param>
         /// <returns></returns>
-        public async Task<T> FindById(dynamic id)
+        public async Task<List<T>> Find(Expression<Func<T, bool>> whereLambda)
         {
-            return await myDbContext.Set<T>().Find(id);
+            //return zbEntities.CreateObjectSet<T>().Where(whereExpr).FirstOrDefault();
+            return  myDbContext.Set<T>().Where<T>(whereLambda).ToList();
         }
-
         /// <summary>
         /// 获取默认一条数据，没有则为NULL
         /// </summary>

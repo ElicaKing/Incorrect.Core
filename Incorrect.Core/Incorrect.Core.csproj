@@ -21,6 +21,7 @@
   <ItemGroup>
     <PackageReference Include="Autofac" Version="5.2.0" />
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.1" />
   </ItemGroup>
@@ -31,6 +32,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Incorrect.Core.Common\Incorrect.Core.Common.csproj" />
+    <ProjectReference Include="..\Incorrect.Core.Extensions\Incorrect.Core.Extensions.csproj" />
     <ProjectReference Include="..\Incorrect.Core.IService\Incorrect.Core.IService.csproj" />
     <ProjectReference Include="..\Incorrect.Core.Model\Incorrect.Core.Model.csproj" />
   </ItemGroup>

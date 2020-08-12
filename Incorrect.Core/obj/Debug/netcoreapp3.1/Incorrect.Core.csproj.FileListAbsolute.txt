@@ -62,9 +62,6 @@ D:\Liuls\NetConf\Incorrect.Core\Incorrect.Core\bin\Debug\netcoreapp3.1\Incorrect
 D:\Liuls\NetConf\Incorrect.Core\Incorrect.Core\obj\Debug\netcoreapp3.1\Incorrect.Core.csprojAssemblyReference.cache
 D:\Liuls\NetConf\Incorrect.Core\Incorrect.Core\obj\Debug\netcoreapp3.1\Incorrect.Core.AssemblyInfoInputs.cache
 D:\Liuls\NetConf\Incorrect.Core\Incorrect.Core\obj\Debug\netcoreapp3.1\Incorrect.Core.AssemblyInfo.cs
-D:\Liuls\NetConf\Incorrect.Core\Incorrect.Core\obj\Debug\netcoreapp3.1\Incorrect.Core.csproj.CoreCompileInputs.cache
-D:\Liuls\NetConf\Incorrect.Core\Incorrect.Core\obj\Debug\netcoreapp3.1\Incorrect.Core.MvcApplicationPartsAssemblyInfo.cs
-D:\Liuls\NetConf\Incorrect.Core\Incorrect.Core\obj\Debug\netcoreapp3.1\Incorrect.Core.MvcApplicationPartsAssemblyInfo.cache
 D:\Liuls\NetConf\Incorrect.Core\Incorrect.Core\obj\Debug\netcoreapp3.1\Incorrect.Core.RazorTargetAssemblyInfo.cache
 D:\Liuls\NetConf\Incorrect.Core\Incorrect.Core\obj\Debug\netcoreapp3.1\Incorrect.Core.csproj.CopyComplete
 D:\Liuls\NetConf\Incorrect.Core\Incorrect.Core\obj\Debug\netcoreapp3.1\staticwebassets\Incorrect.Core.StaticWebAssets.Manifest.cache
@@ -88,3 +85,11 @@ D:\Liuls\NetConf\Incorrect.Core\Incorrect.Core\bin\Debug\netcoreapp3.1\System.Co
 D:\Liuls\NetConf\Incorrect.Core\Incorrect.Core\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
 D:\Liuls\NetConf\Incorrect.Core\Incorrect.Core\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\Liuls\NetConf\Incorrect.Core\Incorrect.Core\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Liuls\NetConf\Incorrect.Core\Incorrect.Core\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\Liuls\NetConf\Incorrect.Core\Incorrect.Core\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Liuls\NetConf\Incorrect.Core\Incorrect.Core\obj\Debug\netcoreapp3.1\Incorrect.Core.csproj.CoreCompileInputs.cache
+D:\Liuls\NetConf\Incorrect.Core\Incorrect.Core\obj\Debug\netcoreapp3.1\Incorrect.Core.MvcApplicationPartsAssemblyInfo.cs
+D:\Liuls\NetConf\Incorrect.Core\Incorrect.Core\obj\Debug\netcoreapp3.1\Incorrect.Core.MvcApplicationPartsAssemblyInfo.cache
+D:\Liuls\NetConf\Incorrect.Core\Incorrect.Core\bin\Debug\netcoreapp3.1\Incorrect.Core.Extensions.exe
+D:\Liuls\NetConf\Incorrect.Core\Incorrect.Core\bin\Debug\netcoreapp3.1\Incorrect.Core.Extensions.dll
+D:\Liuls\NetConf\Incorrect.Core\Incorrect.Core\bin\Debug\netcoreapp3.1\Incorrect.Core.Extensions.pdb

@@ -203,7 +203,7 @@ namespace Incorrect.Core.IService
 
         #endregion
         #region select系列
-        Task<T> FindById(dynamic id);
+        Task<List<T>> Find(Expression<Func<T, bool>> whereLambda);
         Task<T> FirstOrDefault(Expression<Func<T, bool>> whereLambda = null);
         Task<List<T>> GetAll(string ordering = null);
         Task<List<T>> GetAll(Expression<Func<T, bool>> whereLambda, string ordering = null);

@@ -10,6 +10,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Incorrect.Core.IRespository\Incorrect.Core.IRespository.csproj" />
     <ProjectReference Include="..\Incorrect.Core.IService\Incorrect.Core.IService.csproj" />
   </ItemGroup>

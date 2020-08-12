@@ -7,7 +7,6 @@ D:\Liuls\NetConf\Incorrect.Core\Incorrect.Core.Service\bin\Debug\netcoreapp3.1\I
 D:\Liuls\NetConf\Incorrect.Core\Incorrect.Core.Service\obj\Debug\netcoreapp3.1\Incorrect.Core.Service.csprojAssemblyReference.cache
 D:\Liuls\NetConf\Incorrect.Core\Incorrect.Core.Service\obj\Debug\netcoreapp3.1\Incorrect.Core.Service.AssemblyInfoInputs.cache
 D:\Liuls\NetConf\Incorrect.Core\Incorrect.Core.Service\obj\Debug\netcoreapp3.1\Incorrect.Core.Service.AssemblyInfo.cs
-D:\Liuls\NetConf\Incorrect.Core\Incorrect.Core.Service\obj\Debug\netcoreapp3.1\Incorrect.Core.Service.csproj.CoreCompileInputs.cache
 D:\Liuls\NetConf\Incorrect.Core\Incorrect.Core.Service\obj\Debug\netcoreapp3.1\Incorrect.Core.Service.dll
 D:\Liuls\NetConf\Incorrect.Core\Incorrect.Core.Service\obj\Debug\netcoreapp3.1\Incorrect.Core.Service.pdb
 D:\Liuls\NetConf\Incorrect.Core\Incorrect.Core.Service\obj\Debug\netcoreapp3.1\Incorrect.Core.Service.genruntimeconfig.cache
@@ -123,3 +122,4 @@ D:\Liuls\NetConf\Incorrect.Core\Incorrect.Core\bin\Debug\netcoreapp3.1\Incorrect
 D:\Liuls\NetConf\Incorrect.Core\Incorrect.Core\bin\Debug\netcoreapp3.1\Incorrect.Core.Service.runtimeconfig.dev.json
 D:\Liuls\NetConf\Incorrect.Core\Incorrect.Core\bin\Debug\netcoreapp3.1\Incorrect.Core.Service.dll
 D:\Liuls\NetConf\Incorrect.Core\Incorrect.Core\bin\Debug\netcoreapp3.1\Incorrect.Core.Service.pdb
+D:\Liuls\NetConf\Incorrect.Core\Incorrect.Core.Service\obj\Debug\netcoreapp3.1\Incorrect.Core.Service.csproj.CoreCompileInputs.cache

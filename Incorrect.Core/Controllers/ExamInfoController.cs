@@ -6,6 +6,7 @@ using Incorrect.Core.Common;
 using Incorrect.Core.IService;
 using Incorrect.Core;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -21,12 +22,14 @@ namespace Incorrect.Core.Controllers
         //依赖注入
         public IExamInfoService _examInfo;
         public ISchoolGradeService _schoolGrade;
+        private readonly ILogger<ExamInfoController> _logger;
         public MyDbContext _dbContext;
-        public ExamInfoController(IExamInfoService examInfo,ISchoolGradeService schoolGrade,MyDbContext dbContext)
+        public ExamInfoController(IExamInfoService examInfo,ISchoolGradeService schoolGrade,MyDbContext dbContext, ILogger<ExamInfoController> logger)
         {
             this._examInfo = examInfo;
             this._schoolGrade = schoolGrade;
             this._dbContext = dbContext;
+            this._logger = logger;
         }
         // GET: api/<ExamInfoController>
         [HttpGet]
